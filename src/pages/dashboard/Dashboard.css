@@ -1,0 +1,33 @@
+.main-dashboard {
+    padding: 10px;
+    display: flex;
+    background-color: #F5F5F5;
+    /* background-color: red; */
+    
+}
+
+.sidebar-panel {
+    width: 20%;
+}
+
+.main-panel {
+    width: 80%;
+    padding: 0 20px;
+}
+
+.bottum-section {
+    display: flex;
+}
+
+@media (max-width: 1200px) {
+
+    .main-panel {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .bottum-section {
+        display: flex;
+        flex-direction: column;
+    }
+}

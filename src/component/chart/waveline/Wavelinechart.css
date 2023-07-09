@@ -1,0 +1,23 @@
+.waveline{
+   background-color: white;
+   margin-top: 20px;
+   padding: 10px;
+   border-radius: 22px;
+}
+
+
+.text-box1{
+   padding: 10px; 
+   display: flex;
+   flex-direction: column;
+}
+
+.title1{
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.year1{
+   color: #858585;
+   font-size: 12px;
+}

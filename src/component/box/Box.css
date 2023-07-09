@@ -1,0 +1,48 @@
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+.box{
+    background-color: #DDEFE0;
+    height: 80px;
+    width: 20%;
+    border-radius: 20px;
+    /* margin: 15px ; */
+    padding: 20px;
+    line-height: 25px;
+}
+
+.box-icon{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    padding: 5px 5px 0 0;
+    font-size: 25px;
+}
+
+.box-text{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+}
+
+h2{
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+    
+    .box-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+        width: 80%;
+        margin-bottom: 10px;
+    }
+  
+  }

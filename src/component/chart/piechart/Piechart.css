@@ -1,0 +1,74 @@
+.piechart-container {
+    width: 50%;
+    background-color: white;
+    margin: 20px 10px 0 0;
+    border-radius: 22px;
+    padding: 10px;
+}
+
+.text-box {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.year {
+    color: #858585;
+    font-size: 12px;
+}
+
+.pie-section {
+    display: flex;
+}
+
+.pie-diagram {
+    width: 50%;
+}
+
+.pie-details {
+    width: 50%;
+}
+
+.text {
+    margin: 20px;
+}
+
+.pie-title {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.color1 {
+    background-color: #00C49F;
+}
+
+.color2 {
+    background-color: #FFBB28;
+}
+
+.color3 {
+    background-color: #FF8042;
+}
+
+@media (max-width: 1200px) {
+    
+    .piechart-container {
+        width: 90%;
+    }
+
+  }
