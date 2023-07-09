@@ -48,7 +48,9 @@ const Piechart = () => {
       </div>
       <div className="pie-section">
         <div className="pie-diagram">
-          <PieChart width={270} height={150}>
+          <PieChart
+           width={270} height={150}
+           >
             <Pie
               data={data}
               cx={150}

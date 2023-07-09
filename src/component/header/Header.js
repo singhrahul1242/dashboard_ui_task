@@ -25,7 +25,7 @@ const Header = () => {
         </OutsideClickHandler>
         <div
           className="menu-icon"
-          onClick={() => setMenuOpened((prev) => !prev)}
+          onClick={() => (console.log("hhiiii"),setMenuOpened((prev) => !prev))}
         >
           <BiMenuAltRight size={30} />
         </div>
@@ -48,3 +48,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
