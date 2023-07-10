@@ -32,6 +32,6 @@
     }
 
     .sidebar-panel {
-        width: 0%;
+        display: none;
     }
 }
