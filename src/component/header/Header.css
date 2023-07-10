@@ -63,9 +63,6 @@
 
 @media (max-width: 1200px) {
 
-    .searchbar{
-        display: none;
-    }
     .header-left span {
         font-size: 18px;
         font-weight: 700;
@@ -80,7 +77,9 @@
     .h-menu{
         display: block;
     }
-
+    .searchbar{
+        display: none;
+    }
     .h-menu {
         color: var(--black);
         position: absolute;
